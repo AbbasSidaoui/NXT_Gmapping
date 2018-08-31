@@ -7,4 +7,4 @@ Authors:
 Abbas Sidawi,
  Gustav Hedengran,
  Andrea Carlesimo,
- Aris Golemis,
+ Aris Golemis.

@@ -1,0 +1,71 @@
+<robot name="test_robot">
+
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <box size="0.224 0.20 0.05"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="-0.072 0 0.0408"/>
+      <material name="white">
+        <color rgba="1 1 1 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  
+  
+  <link name="rwheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.015" radius="0.0408"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <joint name="base_to_rwheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="rwheel"/>
+    <origin xyz="0.0 0.1075 0.0408" rpy="1.5708 0 0"/>
+  </joint>
+  
+  <link name="lwheel">
+    <visual>
+      <geometry>
+        <cylinder length="0.015" radius="0.0408"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+
+  <joint name="base_to_leftwheel" type="fixed">
+    <parent link="base_link"/>
+    <child link="lwheel"/>
+    <origin xyz="0.0 -0.1075 0.0408" rpy="-1.5708 0 0"/>
+  </joint>
+  
+  <link name="camera_link">
+    <visual>
+      <geometry>
+        <box size=" 0.064 0.25 0.038"/>
+      </geometry>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <material name="black">
+        <color rgba="0 0 0 1"/>
+      </material>
+    </visual>
+  </link>
+  
+  <joint name="base_to_scanner" type="fixed">
+    <parent link="base_link"/>
+    <child link="camera_link"/>
+    <origin xyz="-0.022 0 0.105" rpy="0 0 0"/>
+  </joint>
+  
+</robot>

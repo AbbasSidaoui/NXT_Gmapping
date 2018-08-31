@@ -1,0 +1,1 @@
+/home/user/catkin_testws/src/test1/devel/.private/nxt_description/share/nxt_description/cmake/nxt_descriptionConfig.cmake

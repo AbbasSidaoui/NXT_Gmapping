@@ -1,0 +1,4 @@
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_controllers/lib/pkgconfig/nxt_controllers.pc, /home/user/catkin_testws/src/test1/devel/lib/pkgconfig/nxt_controllers.pc)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_controllers/lib/python2.7/dist-packages/nxt_controllers/__init__.py, /home/user/catkin_testws/src/test1/devel/lib/python2.7/dist-packages/nxt_controllers/__init__.py)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_controllers/share/nxt_controllers/cmake/nxt_controllersConfig-version.cmake, /home/user/catkin_testws/src/test1/devel/share/nxt_controllers/cmake/nxt_controllersConfig-version.cmake)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_controllers/share/nxt_controllers/cmake/nxt_controllersConfig.cmake, /home/user/catkin_testws/src/test1/devel/share/nxt_controllers/cmake/nxt_controllersConfig.cmake)

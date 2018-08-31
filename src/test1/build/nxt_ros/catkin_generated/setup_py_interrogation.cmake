@@ -1,0 +1,6 @@
+set(nxt_ros_SETUP_PY_VERSION "1.1.0")
+set(nxt_ros_SETUP_PY_SCRIPTS "")
+set(nxt_ros_SETUP_PY_PACKAGES "nxt_ros")
+set(nxt_ros_SETUP_PY_PACKAGE_DIRS "src/nxt_ros")
+set(nxt_ros_SETUP_PY_MODULES "")
+set(nxt_ros_SETUP_PY_MODULE_DIRS "")

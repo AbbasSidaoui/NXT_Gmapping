@@ -1,0 +1,1 @@
+/home/user/catkin_testws/src/test1/devel/.private/nxt_controllers/share/nxt_controllers/cmake/nxt_controllersConfig-version.cmake

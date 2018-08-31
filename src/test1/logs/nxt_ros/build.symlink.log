@@ -1,0 +1,4 @@
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_ros/lib/pkgconfig/nxt_ros.pc, /home/user/catkin_testws/src/test1/devel/lib/pkgconfig/nxt_ros.pc)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_ros/lib/python2.7/dist-packages/nxt_ros/__init__.py, /home/user/catkin_testws/src/test1/devel/lib/python2.7/dist-packages/nxt_ros/__init__.py)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_ros/share/nxt_ros/cmake/nxt_rosConfig.cmake, /home/user/catkin_testws/src/test1/devel/share/nxt_ros/cmake/nxt_rosConfig.cmake)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_ros/share/nxt_ros/cmake/nxt_rosConfig-version.cmake, /home/user/catkin_testws/src/test1/devel/share/nxt_ros/cmake/nxt_rosConfig-version.cmake)

@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/devel
+
+Name: base_controllerstest
+Description: Description of base_controllerstest
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_testws/devel/lib 
+Requires: 

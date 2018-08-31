@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/devel
+
+Name: base_controllers
+Description: Description of base_controllers
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/user/catkin_testws/devel/lib 
+Requires: nav_msgs nxt_msgs rospy sensor_msgs tf tf_conversions

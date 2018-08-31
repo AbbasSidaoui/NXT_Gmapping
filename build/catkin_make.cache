@@ -1,0 +1,2 @@
+base_controllerstest:nxt_ros_teleop:nxt_ros_test2:test1:urdf_test
+-DCATKIN_DEVEL_PREFIX=/home/user/catkin_testws/devel -DCMAKE_INSTALL_PREFIX=/home/user/catkin_testws/install -G Unix Makefiles

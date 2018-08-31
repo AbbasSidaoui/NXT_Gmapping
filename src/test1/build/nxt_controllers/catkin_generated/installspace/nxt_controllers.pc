@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/src/test1/install
+
+Name: nxt_controllers
+Description: Description of nxt_controllers
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/user/catkin_testws/src/test1/install/lib 
+Requires: nav_msgs nxt_msgs rospy sensor_msgs tf tf_conversions

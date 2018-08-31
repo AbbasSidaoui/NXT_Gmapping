@@ -1,0 +1,8 @@
+Symlinking /home/user/catkin_testws/src/test1/devel/./env.sh
+Symlinking /home/user/catkin_testws/src/test1/devel/./setup.sh
+Symlinking /home/user/catkin_testws/src/test1/devel/./_setup_util.py
+Symlinking /home/user/catkin_testws/src/test1/devel/./setup.bash
+Symlinking /home/user/catkin_testws/src/test1/devel/./setup.zsh
+Symlinking /home/user/catkin_testws/src/test1/devel/lib/pkgconfig/catkin_tools_prebuild.pc
+Symlinking /home/user/catkin_testws/src/test1/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig.cmake
+Symlinking /home/user/catkin_testws/src/test1/devel/share/catkin_tools_prebuild/cmake/catkin_tools_prebuildConfig-version.cmake

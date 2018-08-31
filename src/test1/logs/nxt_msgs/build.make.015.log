@@ -1,0 +1,23 @@
+[  0%] Built target geometry_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target _nxt_msgs_generate_messages_check_deps_JointCommand
+[  0%] Built target _nxt_msgs_generate_messages_check_deps_Accelerometer
+[  0%] Built target _nxt_msgs_generate_messages_check_deps_Contact
+[  0%] Built target _nxt_msgs_generate_messages_check_deps_Range
+[  0%] Built target _nxt_msgs_generate_messages_check_deps_Gyro
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _nxt_msgs_generate_messages_check_deps_Light
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _nxt_msgs_generate_messages_check_deps_Color
+[  0%] Built target geometry_msgs_generate_messages_nodejs
+[  0%] Built target geometry_msgs_generate_messages_cpp
+[  0%] Built target geometry_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_cpp
+[ 18%] Built target nxt_msgs_generate_messages_nodejs
+[ 18%] Built target std_msgs_generate_messages_lisp
+[ 40%] Built target nxt_msgs_generate_messages_eus
+[ 40%] Built target geometry_msgs_generate_messages_lisp
+[ 62%] Built target nxt_msgs_generate_messages_py
+[ 81%] Built target nxt_msgs_generate_messages_cpp
+[100%] Built target nxt_msgs_generate_messages_lisp
+[100%] Built target nxt_msgs_generate_messages

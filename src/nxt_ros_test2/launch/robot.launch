@@ -1,0 +1,113 @@
+<launch>
+
+	<param name="robot_description" textfile="/home/user/catkin_testws/src/nxt_ros_test2/URDF/Robot.urdf"/>
+        <node pkg="nxt_ros" type="joint_states_aggregator.py" name="js_agg"/>
+
+	<node pkg="nxt_ros" type="nxt_ros.py" name="nxt_ros" respawn="true">
+    		<rosparam command="load" file="/home/user/catkin_testws/src/nxt_ros_test2/config/Test_robot.yaml" />
+  	</node>       
+
+	  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" output="screen">
+   		 <param name="publish_frequency" value="20.0"/>
+  	  </node>
+
+	<group ns="base_parameters">
+    		<param name="r_wheel_joint" value="base_to_rwheel"/>
+    		<param name="l_wheel_joint" value="base_to_leftwheel"/>
+    		<param name="wheel_radius" value="0.0408"/>
+    		<param name="wheel_basis" value="0.0875"/>
+    		<param name="vel_to_eff" value="0.2"/>
+	</group>
+
+	<node pkg="base_controllerstest" name="base_controller" type="base_controller" output="screen"/>
+
+	<node pkg="nxt_controllers" type="base_odometry.py" name="base_odometry" output="screen">
+
+	<param name="robot_description" textfile="/home/user/catkin_testws/src/nxt_ros_test2/URDF/Robot.urdf"/>
+	 </node>
+	
+	  <arg name="camera" default="camera" />
+
+    <!-- start sensor-->
+    <include file="/opt/ros/kinetic/share/freenect_launch/launch/freenect.launch"/>
+
+    <!-- run pointcloud_to_laserscan node -->
+    <node pkg="pointcloud_to_laserscan" type="pointcloud_to_laserscan_node" name="pointcloud_to_laserscan">
+
+        <remap from="cloud_in" to="camera/depth/points"/>
+       <!-- <remap from="scan" to="$(arg camera)/scan"/> -->
+        <rosparam>
+            target_frame: camera_link # Leave disabled to output scan in pointcloud frame
+            transform_tolerance: 0.01
+            min_height: 0.01
+            max_height: 0.5
+
+            angle_min: -1.5708 # -M_PI/2
+            angle_max: 1.5708 # M_PI/2
+            angle_increment: 0.0087 # M_PI/360.0
+            scan_time: 0.3333
+            range_min: 0.2
+            range_max: 5.5
+            use_inf: true
+
+            # Concurrency level, affects number of pointclouds queued for processing and number of threads used
+            # 0 : Detect number of cores
+            # 1 : Single threaded
+            # 2->inf : Parallelism level
+            concurrency_level: 1
+        </rosparam>
+
+    </node>
+
+<arg name="scan_topic" default="scan" />
+
+  <node pkg="gmapping" type="slam_gmapping" name="slam_gmapping">
+    <rosparam>
+      odom_frame: odom
+      base_frame: base_link
+      map_frame: map
+
+      map_update_interval: 0.5 # Publish new map
+
+      maxUrange: 5.0 # Should be just less than sensor range
+      maxRange: 6.0 # Should be just greater than sensor range
+      particles: 100 # Increased from 80
+
+      # Update frequencies
+      linearUpdate: 0.3
+      angularUpdate: 0.5
+      temporalUpdate: 2.0
+      resampleThreshold: 0.5
+
+      # Initial Map Size
+      xmin: -100.0
+      ymin: -100.0
+      xmax: 100.0
+      ymax: 100.0
+      delta: 0.05
+
+      # All default
+      sigma: 0.05
+      kernelSize: 1
+      lstep: 0.05
+      astep: 0.05
+      iterations: 5
+      lsigma: 0.075
+      ogain: 3.0
+      lskip: 0
+      llsamplerange: 0.01
+      llsamplestep: 0.01
+      lasamplerange: 0.005
+      lasamplestep: 0.005
+
+    </rosparam>
+    <remap from="scan" to="$(arg scan_topic)"/>
+  </node>
+ 	
+</launch>
+
+
+
+
+ 
+ 

@@ -1,0 +1,1 @@
+/home/user/catkin_testws/src/test1/devel/.private/nxt_ros/lib/python2.7/dist-packages/nxt_ros/__init__.py

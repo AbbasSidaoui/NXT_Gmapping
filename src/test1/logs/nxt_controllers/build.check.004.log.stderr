@@ -1,0 +1,8 @@
+[31m[1mCMake Error[0m at /opt/ros/kinetic/share/catkin/cmake/catkin_python_setup.cmake:31 (message):
+  catkin_python_setup() called without 'setup.py' in project folder '
+  /home/user/catkin_testws/src/test1/src/nxt/nxt_controllers'
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:16 (catkin_python_setup)
+
+
+make: *** [cmake_check_build_system] Error 1

@@ -1,0 +1,4 @@
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_teleop/lib/pkgconfig/nxt_teleop.pc, /home/user/catkin_testws/src/test1/devel/lib/pkgconfig/nxt_teleop.pc)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_teleop/lib/nxt_teleop/nxt_teleop_node, /home/user/catkin_testws/src/test1/devel/lib/nxt_teleop/nxt_teleop_node)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_teleop/share/nxt_teleop/cmake/nxt_teleopConfig.cmake, /home/user/catkin_testws/src/test1/devel/share/nxt_teleop/cmake/nxt_teleopConfig.cmake)
+Linked: (/home/user/catkin_testws/src/test1/devel/.private/nxt_teleop/share/nxt_teleop/cmake/nxt_teleopConfig-version.cmake, /home/user/catkin_testws/src/test1/devel/share/nxt_teleop/cmake/nxt_teleopConfig-version.cmake)

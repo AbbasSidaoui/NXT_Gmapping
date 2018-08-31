@@ -1,0 +1,1 @@
+/home/user/catkin_testws/src/test1/devel/.private/nxt_teleop/lib/pkgconfig/nxt_teleop.pc

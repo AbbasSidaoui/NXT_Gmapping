@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/install
+
+Name: cmvision
+Description: Description of cmvision
+Version: 0.4.2
+Cflags: -I/home/user/catkin_testws/install/include
+Libs: -L/home/user/catkin_testws/install/lib 
+Requires: message_runtime std_msgs

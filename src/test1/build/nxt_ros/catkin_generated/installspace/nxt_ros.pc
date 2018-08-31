@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/src/test1/install
+
+Name: nxt_ros
+Description: Description of nxt_ros
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/user/catkin_testws/src/test1/install/lib 
+Requires: nxt_msgs nxt_python rospy sensor_msgs

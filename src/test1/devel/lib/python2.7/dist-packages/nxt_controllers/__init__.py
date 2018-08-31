@@ -1,0 +1,1 @@
+/home/user/catkin_testws/src/test1/devel/.private/nxt_controllers/lib/python2.7/dist-packages/nxt_controllers/__init__.py

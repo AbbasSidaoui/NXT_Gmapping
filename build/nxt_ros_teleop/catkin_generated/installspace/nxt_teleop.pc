@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/install
+
+Name: nxt_teleop
+Description: Description of nxt_teleop
+Version: 1.1.0
+Cflags: 
+Libs: -L/home/user/catkin_testws/install/lib 
+Requires: 

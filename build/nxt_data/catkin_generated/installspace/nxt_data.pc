@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/install
+
+Name: nxt_data
+Description: Description of nxt_data
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_testws/install/lib 
+Requires: 

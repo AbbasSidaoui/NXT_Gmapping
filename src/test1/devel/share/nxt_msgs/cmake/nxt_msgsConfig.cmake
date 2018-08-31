@@ -1,0 +1,1 @@
+/home/user/catkin_testws/src/test1/devel/.private/nxt_msgs/share/nxt_msgs/cmake/nxt_msgsConfig.cmake

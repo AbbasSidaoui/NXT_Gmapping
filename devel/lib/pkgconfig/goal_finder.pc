@@ -1,0 +1,8 @@
+prefix=/home/user/catkin_testws/devel
+
+Name: goal_finder
+Description: Description of goal_finder
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/user/catkin_testws/devel/lib 
+Requires: 

@@ -1,0 +1,2 @@
+set(nxt_msgs_MESSAGE_FILES "/home/user/catkin_testws/src/test1/src/nxt/nxt_msgs/msg/Accelerometer.msg;/home/user/catkin_testws/src/test1/src/nxt/nxt_msgs/msg/Color.msg;/home/user/catkin_testws/src/test1/src/nxt/nxt_msgs/msg/Contact.msg;/home/user/catkin_testws/src/test1/src/nxt/nxt_msgs/msg/Gyro.msg;/home/user/catkin_testws/src/test1/src/nxt/nxt_msgs/msg/JointCommand.msg;/home/user/catkin_testws/src/test1/src/nxt/nxt_msgs/msg/Light.msg;/home/user/catkin_testws/src/test1/src/nxt/nxt_msgs/msg/Range.msg")
+set(nxt_msgs_SERVICE_FILES "")

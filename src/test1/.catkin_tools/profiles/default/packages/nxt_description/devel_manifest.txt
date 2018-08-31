@@ -1,0 +1,4 @@
+nxt/nxt_description
+/home/user/catkin_testws/src/test1/devel/.private/nxt_description/lib/pkgconfig/nxt_description.pc /home/user/catkin_testws/src/test1/devel/lib/pkgconfig/nxt_description.pc
+/home/user/catkin_testws/src/test1/devel/.private/nxt_description/share/nxt_description/cmake/nxt_descriptionConfig-version.cmake /home/user/catkin_testws/src/test1/devel/share/nxt_description/cmake/nxt_descriptionConfig-version.cmake
+/home/user/catkin_testws/src/test1/devel/.private/nxt_description/share/nxt_description/cmake/nxt_descriptionConfig.cmake /home/user/catkin_testws/src/test1/devel/share/nxt_description/cmake/nxt_descriptionConfig.cmake

@@ -4,7 +4,7 @@ A project done for TESP2018 - Tohoku University
 This project was done for the TESP2018 Space robotics lab final challenge.
 
 Authors:
-Abbas Sidawi /n
-Gustav Hedengran /n
-Andrea Carlesimo /n
-Aris Golemis /n
+Abbas Sidawi,
+Gustav Hedengran
+Andrea Carlesimo
+Aris Golemis
